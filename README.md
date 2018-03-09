@@ -4,7 +4,7 @@ The Base of all API Calls is: https://www.flareco.net/api/hordes.io.api.php
 Now you can send a GET or a POST Request to this BASE URL.
 With the following parameters:
 
-?username=</username>
+?username=YOUR_USERNAME
 
 now you can query the data.
 (Currently Avaible Data: name, level, class, fame, clan, faction, exp, needexp)
@@ -18,11 +18,19 @@ EX: https://www.flareco.net/api/hordes.io.api.php?username=flareco&all
 All Other Methods: (*format is plain text)
 
 EX: https://www.flareco.net/api/hordes.io.api.php?username=flareco&name //Returns the Custom Name of the User.
+
 EX: https://www.flareco.net/api/hordes.io.api.php?username=flareco&level //Returns the Level of the User
+
 EX: https://www.flareco.net/api/hordes.io.api.php?username=flareco&class //Returns the Class of the User
+
 EX: https://www.flareco.net/api/hordes.io.api.php?username=flareco&fame //Returns the Fame of the User
+
 EX: https://www.flareco.net/api/hordes.io.api.php?username=flareco&clan //Returns the Clan of the User.
+
 EX: https://www.flareco.net/api/hordes.io.api.php?username=flareco&faction //Returns the choosen Faction
+
 EX: https://www.flareco.net/api/hordes.io.api.php?username=flareco&exp //Returns the Current EXP
+
 EX: https://www.flareco.net/api/hordes.io.api.php?username=flareco&needexp //Returns the NeededEXP for next Level
+
 EX: https://www.flareco.net/api/hordes.io.api.php?username=flareco&skill={1-4} //Returns the Skill name
